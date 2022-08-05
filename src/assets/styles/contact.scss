@@ -1,0 +1,90 @@
+.contact-us {
+    padding: 10rem 1rem 3.125rem;
+
+    @media only screen and (max-width: 600px) {
+        padding: 4rem 1rem;
+    }
+
+    .section-container-content {
+        display: flex;
+        gap: 5%;
+        padding: 5rem 3.3125rem 3.75rem;
+        background: linear-gradient(288.7deg, #9896F0 -0.71%, #FDADFA 100%);
+        border-radius: 3.125rem;
+
+        @media only screen and (max-width: 900px) {
+            padding: 2rem 1rem;
+            flex-direction: column;
+        }
+
+        .text-section {
+            width: 43%;
+
+            @media only screen and (max-width: 900px) {
+                width: 100%;
+            }
+
+            h1 {
+                font-family: 'Poppins';                
+                font-weight: 600;
+                font-size: 2.625rem;
+                line-height: 4.6875rem;
+                color: #001B13;
+                margin: 0 0 1.3125rem;
+
+                span {
+                    color: #B311FF;
+                }
+            }
+
+            h3 {                
+                font-family: 'Poppins';                
+                font-weight: 500;
+                font-size: 1.375rem;
+                line-height: 2.4375rem;
+                color: #FFFFFF;
+                margin: 0 0 3.75rem;
+            }
+        }
+
+        .form-section {
+            width: 52%;
+
+            @media only screen and (max-width: 900px) {
+                width: 100%;
+            }
+
+            .form-item {
+                margin-bottom: 1.3125rem;
+
+                &-inner {
+                    input, textarea {
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding: 1rem 1.1875rem;
+                        border-radius: 0.75rem;
+                        outline: none;
+                        border: none;
+                        font-family: 'Poppins';                            
+                        font-weight: 600;
+                        font-size: 1.25rem;
+                        line-height: 1.875rem;
+
+                        &::placeholder {                            
+                            color: #99B8AF;
+                        }
+
+                        &:focus {
+                            outline: none;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .success {
+            color: #B311FF;
+        }
+    }
+}

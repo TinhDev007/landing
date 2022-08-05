@@ -1,0 +1,95 @@
+.testimonials {
+    background-image: url("../images/service-bg1.svg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media only screen and (max-width: 900px) {
+        background-image: none;
+        padding: 2rem 1rem;
+    }
+}
+
+.slick-list {
+    overflow: hidden;
+
+    .slick-track {
+        .testimonial-item {            
+            padding: 1.3125rem;
+            box-sizing: border-box;
+
+            &.top {
+                margin-top: 5rem;
+                @media only screen and (max-width: 600px) {
+                    margin-top: 0;
+                }
+            }
+
+            &.bottom {
+                margin-bottom: 5rem;
+                @media only screen and (max-width: 600px) {
+                    margin-bottom: 0;
+                }
+            }
+
+            &-inner {
+                background: #FFFFFF;
+                box-shadow: 0px 4px 30px rgba(185, 189, 222, 0.23);
+                border-radius: 1.875rem;
+                padding: 1.3125rem;
+                text-align: center;
+
+                .image-section {
+                    text-align: center;
+
+                    img {
+                        margin: 0 auto;
+                    }
+                }
+
+                h3 {
+                    font-family: 'Poppins';                    
+                    font-weight: 600;
+                    font-size: 1.125rem;
+                    line-height: 1.6875rem;
+                    color: #000000;
+                    margin: 1.3125rem 0;
+                }
+
+                p {
+                    font-family: 'Poppins';                    
+                    font-weight: 500;
+                    font-size: 0.875rem;
+                    line-height: 1.5rem;
+                    color: #99B8AF;
+                    margin: 0 0 1.875rem;
+                }
+            }
+        }
+    }
+}
+
+.slick-arrow {
+    background: #FFFFFF;
+    border-radius: 0.75rem;
+    width: 4.625rem;
+    height: 4.625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 120%;
+    box-shadow: 0px 4px 30px rgb(185 189 222 / 23%);
+
+    &::before {
+        display: none;
+    }
+
+    &.slick-next {
+        right: 1rem;
+    }
+
+    &.slick-prev {
+        right: 6.375rem;
+        left: unset;
+    }
+}
