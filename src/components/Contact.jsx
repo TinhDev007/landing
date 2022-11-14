@@ -92,7 +92,7 @@ const Contact = () => {
         <div className="section-container-content"> 
           <div className="text-section">
             <h1>Send us your <span>project</span> for a quote</h1>
-            <h3>There are many variations of passages of Lorem Ipsum available, but the majority have</h3>
+            {/* <h3>There are many variations of passages of Lorem Ipsum available, but the majority have</h3> */}
             <div className="action-groups mobile-hidden">             
               <button className="btn outline-btn no-border small" onClick={handleSubmit}>Submit</button>
             </div>
