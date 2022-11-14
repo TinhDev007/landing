@@ -125,7 +125,7 @@ const Contact = () => {
             <div className="action-groups desktop-hidden">             
               <button className="btn outline-btn no-border small" onClick={handleSubmit}>Submit</button>
             </div>
-            {systemMessage && <p className="success">{systemMessage}</p> }
+            {/* {systemMessage && <p className="success">{systemMessage}</p> } */}
           </div>
         </div>
       </div>
