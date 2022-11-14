@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="image-section">
-          <img src={mainImg} alt="" />
+          {/* <img src={mainImg} alt="" /> */}
         </div>
       </div>
     </section>
